@@ -28,8 +28,14 @@ button.Search
 	width: 20%;
 	border: 0px;
 	border-radius: 4px;
+	opacity: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+button.Search:hover
+{
 	opacity: 90%;
-	margin: 0 auto;
 }
 
 h3

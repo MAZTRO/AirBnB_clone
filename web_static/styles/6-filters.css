@@ -28,8 +28,14 @@ button.Search
 	width: 20%;
 	border: 0px;
 	border-radius: 4px;
+	opacity: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+button.Search:hover
+{
 	opacity: 90%;
-	margin: 0 auto;
 }
 
 h2
@@ -80,7 +86,8 @@ ul.popover
     border-radius: 4px;
     text-align: left;
     text-indent: -20px;
-    /* display: none; */
+    visibility: hidden;
+    z-index: 100;
 }
 li
 {
@@ -90,3 +97,9 @@ li
     font-size: 16px;
     line-height: 30px;
 }
+
+div.amenities:hover .popover
+{visibility: visible;}
+
+div.locations:hover .popover
+{visibility: visible;}
