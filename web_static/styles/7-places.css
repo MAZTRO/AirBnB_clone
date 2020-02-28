@@ -4,11 +4,7 @@
   ========================================
 */
 
-h1
-{
-	text-align: left;
-	font-size: 30px;
-}
+h1 {text-align: left; font-size: 30px;}
 
 section.places
 {
@@ -16,8 +12,59 @@ section.places
 	position: relative;
 	top: 30px;
 	left: 0px;
-	padding: 5px;
-	max-width: 1000px;
-	height: 200px;
-	background-color: #cccccc;
+	padding: 20px;
+}
+
+ul.article
+{
+	list-style-type: none;
+	padding: 0px;
+}
+
+li.plc_1
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #FF5A5F;
+	border-radius: 4px;
+}
+
+li.plc_2
+{
+	position: relative;
+	top: -141px;
+	left: 500px;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #FF5A5F;
+	border-radius: 4px;
+}
+
+li.plc_3
+{
+	position: relative;
+	top: -120px;
+	left: 250px;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #FF5A5F;
+	border-radius: 4px;
+}
+
+ul.article h2
+{
+	font-size: 30px;
+	text-align: center;
 }

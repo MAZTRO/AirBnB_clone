@@ -17,6 +17,7 @@ footer.Principal_footer
 	border-color: #CCCCCC;
 	position: absolute;
 	bottom: 0px;
+	z-index: 99;
 }
 
 p.name
