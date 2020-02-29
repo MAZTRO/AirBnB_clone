@@ -1,0 +1,68 @@
+/*
+  ========================================
+  Style for places
+  ========================================
+*/
+
+h1 {text-align: left; font-size: 30px; width: 100%;}
+
+section.places
+{
+	margin-top: 30px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+section.places article
+{
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #FF5A5F;
+	border-radius: 4px;
+}
+
+article h2
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+div.price_by_night
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FF5A5F;
+	border: 5px;
+	border-style: solid;;
+	border-color: #FF5A5F;
+	border-radius: 60px;
+	width: 90px;
+	height: 90px;
+	font-size: 30px;
+	position: relative;
+	margin-left: 290px;
+	margin-top: -90px;
+	margin-bottom: 20px;
+}
+
+div.information
+{
+	border: 1px;
+	border-color: #DDDDDD;
+	border-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	height: 80px;
+	text-align: center;
+	align-items: center;
+}
+
+div.information div.img_guest
+{
+	background-image: url(/AirBnB_clone/web_static/images/Logo.png);
+}
