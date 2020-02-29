@@ -17,6 +17,7 @@ div.container
 {
 	position: relative;
 	top: 30px;
+	bottom: 30px;
 	padding: 0px;
 	max-width: 1000px;
 	margin: 0 auto;
