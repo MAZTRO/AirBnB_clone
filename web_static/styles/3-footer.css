@@ -6,6 +6,11 @@
 
 footer.Principal_footer
 {
+	position: fixed;
+	bottom: 0px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	z-index: 99;
 	background-color: #FFFFFF;
 	height: 60px;
 	width: 100%;
@@ -15,10 +20,6 @@ footer.Principal_footer
 	border-right-width: 0px;
 	border-style: solid;
 	border-color: #CCCCCC;
-	position: relative;
-	margin-top: 50px;
-	margin-bottom: 0px;
-	z-index: 99;
 }
 
 p.name
