@@ -15,8 +15,9 @@ footer.Principal_footer
 	border-right-width: 0px;
 	border-style: solid;
 	border-color: #CCCCCC;
-	position: absolute;
-	bottom: 0px;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 0px;
 	z-index: 99;
 }
 

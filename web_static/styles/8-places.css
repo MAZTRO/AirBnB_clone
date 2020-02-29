@@ -52,17 +52,56 @@ div.price_by_night
 
 div.information
 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 1px;
 	border-color: #DDDDDD;
 	border-style: solid;
 	border-left-width: 0px;
 	border-right-width: 0px;
-	height: 80px;
-	text-align: center;
+	max-height: 80px;
+}
+
+div.information p
+{
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
 div.information div.img_guest
 {
-	background-image: url(/AirBnB_clone/web_static/images/Logo.png);
+	position: relative;
+	top: 10px;
+	left: 3px;
+	height: 50px;
+	width: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image: url(/AirBnB_clone/web_static/images/icon_group.png);
+}
+
+div.information div.img_rooms
+{
+	position: relative;
+	top: 10px;
+	left: 2px;
+	height: 50px;
+	width: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-image: url(/AirBnB_clone/web_static/images/icon_bed.png);
+}
+
+div.information div.img_baths
+{
+	position: relative;
+	top: 10px;
+	left: -6px;
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	margin-right: 0px;
+	background-image: url(/AirBnB_clone/web_static/images/icon_bath.png);
 }
